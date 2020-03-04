@@ -7,6 +7,7 @@ $run_num = $argv[2];
 //运行时间间隔
 $interval = $argv[3];
 
+
 if ($argv[1] == 'start'){
     $run = new Request($run_num,$interval);
     $run->start();
